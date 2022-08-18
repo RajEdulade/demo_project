@@ -61,6 +61,8 @@ class MyApp extends StatelessWidget {
                     "Click me",
                     style: TextStyle(),
                   )),
+              TextButton(onPressed: (){}, child: Text("text button", style:
+              TextStyle(color: Colors.black),))
             ],
           ),
         )),
